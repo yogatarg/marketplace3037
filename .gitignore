@@ -1,0 +1,22 @@
+# Uploaded assets (images) - excluded to keep repo lightweight
+assets/
+
+# CodeIgniter
+*/application/logs/*
+!*/application/logs/index.html
+*/application/cache/*
+!*/application/cache/index.html
+!*/application/cache/.htaccess
+
+# Environment / local config (contains credentials - see *.example files)
+.env
+*/application/config/database.php
+*/application/config/midtrans.php
+
+# OS / editor
+Thumbs.db
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+*.log
