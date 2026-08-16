@@ -1,0 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+// Copy this file to rajaongkir.php and fill in your own RajaOngkir (Komerce) API key.
+// Get the key from https://collaborator.komerce.id/ (menu API Key).
+$config['rajaongkir_api_key'] = 'YOUR_RAJAONGKIR_API_KEY';

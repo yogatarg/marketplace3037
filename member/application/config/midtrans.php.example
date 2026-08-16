@@ -1,0 +1,7 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+// Copy this file to midtrans.php and fill in your own Midtrans keys.
+// Sandbox keys start with SB-Mid-; production keys start with Mid-.
+$config['midtrans_server_key'] = 'SB-Mid-server-YOUR_SERVER_KEY';
+$config['midtrans_client_key'] = 'SB-Mid-client-YOUR_CLIENT_KEY';
